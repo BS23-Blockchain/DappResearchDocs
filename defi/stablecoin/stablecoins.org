@@ -1,0 +1,73 @@
+#+TITLE: Stablecoins
+#+AUTHOR: Noman5237
+#+DATE: <2022-04-01 Fri> 
+
+* The infamous Bitcoin pizza
+
+In 2010, someone bought 2 pizzas for 10,000 bitcoin. At the time these were worth ~$41 USD.
+In today’s market that’s millions of dollars. There are many similar regretful transactions in Ethereum’s history.
+
+Stablecoins solve this problem, so you can enjoy your pizza and hold on to your ETH.
+
+* Types of Stable Coins
+*** Fiat based
+**** Principle
+      Fiat currency is used to purchase a stablecoin that can be later cashed-in and redeemed for original currency.
+      In principle, this is the most simplest kind of stable coin system.
+**** Pros
+***** safe against crypto volatility
+***** changes in price are minimal
+**** Cons
+***** centralized
+      Someone must issue the tokens.
+***** fraudulent
+      Requires auditing to ensure company has sufficient reserves.
+**** Projects
+***** USDT
+***** USDC
+***** TrueUSD
+*** Precious Metals
+**** Principle
+      Instead of using fiat currency, the tokens are backed by the reserves of precious metals.
+*** Crypto backed 
+**** Principle
+      These kind of stable coins are backed by other crypto assets like ETH. Because the underlying collateral is very fluctuating,
+      so these stable coins are generally over collateralised to ensure the price remains as stable as possible.
+**** Pros
+***** transparent and fully decentralized
+***** quick to turn into other crypto assets
+**** Cons
+***** less stable than fiat-backed stablecoins 
+***** an oracle is needed to keep an eye on the value of crypto collateral
+**** Projects
+***** Dai
+      Dai is a multi-token over collateralised stablecoin
+*** Algorithmic
+**** Principle
+      There are many approaches to make the coin stable in value.
+      The number of tokens in circulation changes regularly, the number of tokens owned will change,
+      but will always reflect the share. 
+**** Pros
+***** no collateral needed
+***** fully Decentralized, controlled by a public algorithm
+**** Cons
+***** trust in the coin
+***** very difficult to implement a proper algorithm
+**** Projects
+***** Ampleforth 
+*** Notes
+      + The difference between fiat, cryto and precious metal backed tokens are that the trust of the people lies in different things.
+      + This kind of supply chain system can actually work with any type of reserves like gold or other stocks.
+        And in this way, we can actually use ERC20 tokens for simulating the stock markets.
+      + Fiat/Stocked Backed
+        + The implementation of token systems requires a central authority and the existing financial system to work.
+        + These kinds of system requires a very systematic and regular audits to ensure that the collateral is actually there.
+        + These systems are generally off-chain collateralised systems.
+      + The advantage of this kind of systems is that the system don't need to deal with the economic crisises.
+        The advantage also levarages to the existing policy making systems and simply doesn't deal with the economic flames.
+      + These systems also be integrated with the existing financial applications very easily.
+
+* 
+
+* References
+  + https://ethereum.org/en/stablecoins/
