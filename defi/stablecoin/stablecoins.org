@@ -45,8 +45,19 @@ Stablecoins solve this problem, so you can enjoy your pizza and hold on to your 
 *** Algorithmic
 **** Principle
       There are many approaches to make the coin stable in value.
+      By the very nature of crypto coins and the market it operates in, the prices are very volatile.
+      So what the smart contracts do is manipulate the supply of the coins to adjust the price.
+      For developing These algorithmic stablecoins we need to understand and identify the boundarary of the market it will operate in.
+
+      There are three common algorithms for these kind of tokens:
+***** Volatile Balance 
       The number of tokens in circulation changes regularly, the number of tokens owned will change,
       but will always reflect the share. 
+***** Money Printer
+      This system mints token out of thin air and uses bond systems like existing fiat based central banks
+      to adjust the price of the tokens and establish stability.     
+***** Coupons
+      It is very similar to the bond based system but uses coupons instead.
 **** Pros
 ***** no collateral needed
 ***** fully Decentralized, controlled by a public algorithm
@@ -66,8 +77,13 @@ Stablecoins solve this problem, so you can enjoy your pizza and hold on to your 
       + The advantage of this kind of systems is that the system don't need to deal with the economic crisises.
         The advantage also levarages to the existing policy making systems and simply doesn't deal with the economic flames.
       + These systems also be integrated with the existing financial applications very easily.
-
-* 
+      + Algorithmic Stablecoins
+        + Although algorithmic stable coins seems a very promising thing, but they go against the existing economic system,
+          and thus less promising in terms of business in terms of current decade.
+        + To be economically viable algorithmic stablecoins actually have to simulate all the functions of the central bank,
+          and simulating the policy making decisions of the central bank just with an algorithm is going to be extremely tough.
+        + Here also lies interesting prospects of ML, we can analyze the current market and make just good enough decisions that can
+          automate policy making from macroeconomics perspective.
 
 * References
   + https://ethereum.org/en/stablecoins/
