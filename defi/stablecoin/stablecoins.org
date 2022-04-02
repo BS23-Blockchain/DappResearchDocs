@@ -84,6 +84,8 @@ Stablecoins solve this problem, so you can enjoy your pizza and hold on to your 
           and simulating the policy making decisions of the central bank just with an algorithm is going to be extremely tough.
         + Here also lies interesting prospects of ML, we can analyze the current market and make just good enough decisions that can
           automate policy making from macroeconomics perspective.
-
-* References
-  + https://ethereum.org/en/stablecoins/
+        + Although algorithmic stablecoins could bring out a totally new currency based ecosystem, almost none of the existing solutions
+          do that, almost all of them are pegged to the existing currency, and it is designed in this way for two reasons:
+           + make people more comfortable with the blockchain ecosystem
+           + not to take any burden of policy making
+         
